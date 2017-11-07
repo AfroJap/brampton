@@ -1,8 +1,9 @@
 # DECLARE a : ARRAY[0..9] OF INTEGER
+a = []
 
-for q in range[0, 9]:
+for q in range(0, 10):
     print("Enter a whole number")
-    a[q] = input()
+    a.append(input())
 
 u = 0
 numb = 0
@@ -15,9 +16,8 @@ for r in range(9, 0, -1):
             a[y] = a[y + 1]
             a[y+1] = numb
 
-for y in range(1, 11):
+for i in range(0, 10):
     print a[i]
-    i = i + 1
 
 
 
