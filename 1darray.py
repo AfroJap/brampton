@@ -1,9 +1,16 @@
 # DECLARE a : ARRAY[0..9] OF INTEGER
 a = []
-
+bund = 0
+und = 0
 for q in range(0, 10):
-    print("Enter a whole number")
-    a.append(input())
+        print("Enter a whole number, 0 < range > 11")
+        bund = int(input())
+        while bund < 0 or bund > 10:
+            print("Error")
+            print("Enter a whole number, 0 < range > 11")
+            bund = int(input())
+        a.append(bund)
+
 
 u = 0
 numb = 0
