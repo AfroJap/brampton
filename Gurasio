@@ -1,0 +1,28 @@
+print("Use () not []"
+      "Use /*+-"
+      " "
+      "")
+dund = 0
+while dund > 0:
+    print("enter function")
+
+    dund = 0
+    aund = ""
+    aund = raw_input()
+    aund = aund.upper()
+
+
+    if "[" in aund:
+        print("Syntax Error, [] used instead of ()")
+        dund = 1
+
+    aund = aund.upper()
+    if "A" in aund:
+        print("Syntax Error, string characters used")
+        dund = 1
+
+
+#bund = aund.count("a")
+bund = aund.index("1")   #gives position
+print(bund)
+
