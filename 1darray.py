@@ -1,7 +1,6 @@
 # DECLARE a : ARRAY[0..9] OF INTEGER
 a = []
 bund = 0
-und = 0
 for q in range(0, 10):
         print("Enter a whole number, 0 < range > 11")
         bund = int(input())
