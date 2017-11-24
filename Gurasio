@@ -1,28 +1,44 @@
-print("Use () not []"
-      "Use /*+-"
-      " "
-      "")
-dund = 0
-while dund > 0:
-    print("enter function")
+print("enter function")
 
-    dund = 0
-    aund = ""
-    aund = raw_input()
-    aund = aund.upper()
+func = ""
+func = raw_input()
+funcLength = len(func)
+funcArray = [funcLength]
+
+x = funcLength
+
+for i in range(0, funcLength):
+    x = x - 1
+    funcArray.append(func[i:-x])
+for i in range(1, funcLength):
+    print(funcArray[i])
+
+if funcArray[5] is i
 
 
-    if "[" in aund:
-        print("Syntax Error, [] used instead of ()")
-        dund = 1
+#brCount = aund.count("(")
+#inCount = aund.count("^")
+#diCount = aund.count("/")
+#muCount = aund.count("*")
+#adCount = aund.count("+")
+#suCount = aund.count("-") 
 
-    aund = aund.upper()
-    if "A" in aund:
-        print("Syntax Error, string characters used")
-        dund = 1
+#brFind = []
+#if brCount > 0:
+#    for i in range(0, brCount):
+#        brFind.append(aund.index("("))
+#        brFind.append(aund.index(")"))
+#        print(aund[brFind[0]:-brFind[1]])
+#    for y in range(0, 2):
+#        print(brFind[y])
+
+
+
+
+
 
 
 #bund = aund.count("a")
-bund = aund.index("1")   #gives position
-print(bund)
+#bund = aund.index("1")   #gives position
+#print(bund)
 
