@@ -16,7 +16,6 @@ numb = 0
 for r in range(9, 0, -1):
     numb = 0
     for y in range(0, r):
-        port = y + 1
         if a[y] > a[y + 1]:
             numb = a[y]
             a[y] = a[y + 1]
