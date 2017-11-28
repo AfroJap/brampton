@@ -1,40 +1,18 @@
-print("enter function")
-
 func = ""
+
+print("enter function")
 func = raw_input()
+
 funcLength = len(func)
-funcArray = [funcLength]
+funcArray = []
 
 x = funcLength
 
 for i in range(0, funcLength):
-    x = x - 1
+    x = x - 2
     funcArray.append(func[i:-x])
-for i in range(1, funcLength):
+for i in range(0, funcLength):
     print(funcArray[i])
-
-if funcArray[5] is i
-
-
-#brCount = aund.count("(")
-#inCount = aund.count("^")
-#diCount = aund.count("/")
-#muCount = aund.count("*")
-#adCount = aund.count("+")
-#suCount = aund.count("-") 
-
-#brFind = []
-#if brCount > 0:
-#    for i in range(0, brCount):
-#        brFind.append(aund.index("("))
-#        brFind.append(aund.index(")"))
-#        print(aund[brFind[0]:-brFind[1]])
-#    for y in range(0, 2):
-#        print(brFind[y])
-
-
-
-
 
 
 
