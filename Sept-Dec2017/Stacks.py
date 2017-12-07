@@ -1,3 +1,9 @@
+# Push Procedure + Pop Function
+def
+
+
+# Output 10 In reverse
+
 a = []
 bund = 0
 
