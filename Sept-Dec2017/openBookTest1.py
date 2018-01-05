@@ -40,7 +40,7 @@ while beta != 1:
     print("Team ", a[aund], " took ", dund, " tries")
 
     print("")
-    print("Team ", a[aund], ":")
+    print("Team ", a[cund], ":")
     fund = randint(0, 10)
     tries = 0
     tries = game2(fund)
