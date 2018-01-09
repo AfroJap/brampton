@@ -4,7 +4,7 @@ def FindLetter(dund):
         for i in range(0, 6):
             if a[i].nameID == dund:
                 found = True
-                position = [a[i].nameID, a[i].nodeID]
+                position = a[i]
     return position
 
 nullPtr = -1
@@ -37,4 +37,4 @@ for i in range(0,6):
 bund = "h"
 
 FoundLetter = FindLetter(bund)
-print(FoundLetter)
+print(FoundLetter.nodeID)
