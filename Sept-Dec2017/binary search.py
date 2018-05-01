@@ -4,7 +4,7 @@ a = []
 bund = 0
 
 for q in range(0, 25):
-    bund = int(randint(0, 9))
+    bund = int(randint(0, 9)+4)
     a.append(bund)
 
 u = 0
